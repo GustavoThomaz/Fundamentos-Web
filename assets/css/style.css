@@ -1,0 +1,45 @@
+/*Estilo página index.html*/
+
+.center{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    display: flex;
+    flex-flow:row ;
+    justify-content:center;
+}
+
+#menu li {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#menu li a:hover{
+    color: grey;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.justify{
+    text-align: justify;
+}
+
+/* Estilo aprender.html */
+
+.p-20{
+    padding: 20px;
+}
